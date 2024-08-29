@@ -7,6 +7,6 @@ This is a simple responsive React application with a navigation bar, content sec
 - Different content displayed based on navigation item selection
 
 ## Deployment
-The application is deployed on [Vercel/Netlify].
+The application is deployed on Google Firebase.
 
-[Link to the hosted application](#)  
+[[Link to the hosted application](https://react-assignment-fdb55.web.app/)](#)  
