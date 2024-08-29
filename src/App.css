@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  font-family: Roboto Condensed;
+  font-weight : 400;
+}
+
+main {
+  margin-top: 90px;
+  letter-spacing: 1px;
+  font-size:14px;
+  padding: 10px;
+}
+
+.header {
+  background-color: #111;
+  letter-spacing: 1px;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; 
+  margin: 0 auto;   
+  padding: 0 10px;
+}
+
+.logo {
+  font-size: 24px;
+  cursor : pointer;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-items li {
+  cursor: pointer;
+}
+
+.nav-items li:hover{
+  text-decoration: underline;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #111;
+    top: 30px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-items.open {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+
+  
+
+  
